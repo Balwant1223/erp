@@ -2,9 +2,9 @@ from __future__ import unicode_literals
 from frappe import _
 
 app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = """ERP made simple"""
+app_title = "Differentia Automation"
+app_publisher = "Technawab Pvt. Ltd."
+app_description = """Future at 127.0.0.1"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
 app_email = "info@erpnext.com"
