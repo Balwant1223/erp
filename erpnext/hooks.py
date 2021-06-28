@@ -7,9 +7,9 @@ app_publisher = "Technawab Pvt. Ltd."
 app_description = """Future at 127.0.0.1"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "info@erpnext.com"
+app_email = "contact@technawab.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/Balwant1223/erp.git"
 app_logo_url = "/assets/erpnext/images/DA_Small.svg"
 
 
