@@ -6,12 +6,12 @@
  "modified": "2015-10-28 16:27:02.197707", 
  "modified_by": "Administrator", 
  "module": "Setup", 
- "name": "welcome-to-erpnext", 
+ "name": "welcome-to-differentia", 
  "owner": "Administrator", 
- "page_name": "welcome-to-erpnext", 
+ "page_name": "welcome-to-differentia", 
  "roles": [], 
  "script": null, 
  "standard": "Yes", 
  "style": null, 
- "title": "Welcome to ERPNext"
+ "title": "Welcome to Differentia Desk"
 }

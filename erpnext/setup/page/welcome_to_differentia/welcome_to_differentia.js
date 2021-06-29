@@ -1,7 +1,7 @@
-frappe.pages['welcome-to-erpnext'].on_page_load = function(wrapper) {
-	var parent = $('<div class="welcome-to-erpnext"></div>').appendTo(wrapper);
+frappe.pages['welcome-to-differentia'].on_page_load = function(wrapper) {
+	var parent = $('<div class="welcome-to-differentia"></div>').appendTo(wrapper);
 
-	parent.html(frappe.render_template("welcome_to_erpnext", {}));
+	parent.html(frappe.render_template("welcome_to_differentia", {}));
 
 	parent.find(".video-placeholder").on("click", function() {
 		window.erpnext_welcome_video_started = true;
