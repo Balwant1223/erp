@@ -37,7 +37,7 @@ def after_install():
 
 def check_setup_wizard_not_completed():
 	if cint(frappe.db.get_single_value('System Settings', 'setup_complete') or 0):
-		message = """ERPNext can only be installed on a fresh site where the setup wizard is not completed.
+		message = """Differentia Desk can only be installed on a fresh site where the setup wizard is not completed.
 You can reinstall this site (after saving your data) using: bench --site [sitename] reinstall"""
 		frappe.throw(message)   # nosemgrep
 
@@ -126,21 +126,9 @@ def add_standard_navbar_items():
 
 	erpnext_navbar_items = [
 		{
-			'item_label': 'Documentation',
-			'item_type': 'Route',
-			'route': 'https://erpnext.com/docs/user/manual',
-			'is_standard': 1
-		},
-		{
-			'item_label': 'User Forum',
-			'item_type': 'Route',
-			'route': 'https://discuss.erpnext.com',
-			'is_standard': 1
-		},
-		{
 			'item_label': 'Report an Issue',
 			'item_type': 'Route',
-			'route': 'https://github.com/frappe/erpnext/issues',
+			'route': 'https://www.technawab.com/',
 			'is_standard': 1
 		}
 	]
